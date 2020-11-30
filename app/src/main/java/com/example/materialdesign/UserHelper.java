@@ -1,5 +1,8 @@
 package com.example.materialdesign;
 
+import android.widget.ImageView;
+import android.widget.TextView;
+
 public class UserHelper {
     private String name,phone,address,email,password;
 

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="@dimen/_2sdp"
+    app:cardElevation="@dimen/_8sdp"
+    android:layout_margin="@dimen/_10sdp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_margin="@dimen/_10sdp"
+        android:padding="@dimen/_10sdp"
+        android:layout_width="@dimen/_300sdp"
+        android:layout_height="@dimen/_150sdp">
+        <ImageView
+            android:id="@+id/mostViewd_imageId"
+            android:scaleType="fitXY"
+            android:src="@drawable/shakil"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_100sdp"/>
+
+        <TextView
+            android:id="@+id/mostViewd_titleId"
+            android:layout_toRightOf="@id/mostViewd_imageId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:fontFamily="@font/baloo"
+            android:text="Isfak Shakil"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20sdp" />
+        <RatingBar
+            android:id="@+id/mostViewd_ratingId"
+            android:layout_toRightOf="@id/mostViewd_imageId"
+            android:layout_below="@id/mostViewd_titleId"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:rating="3.5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/mostViewd_descriptionId"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_toRightOf="@id/mostViewd_imageId"
+            android:layout_below="@id/mostViewd_ratingId"
+            android:text="I am isfak Shakil.I am from chittagong.I completed my graduation from NSTU."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>
