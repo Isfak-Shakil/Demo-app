@@ -36,6 +36,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <Button
+                android:id="@+id/loginNewId"
+                android:onClick="callingLogingScreen"
+                android:transitionName="transition_login"
                 android:fontFamily="@font/baloo"
                 android:textAllCaps="false"
                 android:textColor="@color/black"
@@ -46,6 +49,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"/>
             <Button
+                android:id="@+id/signUpNewId"
+                android:onClick="callingSignUpScreen"
                 android:fontFamily="@font/baloo"
                 android:textAllCaps="false"
                 android:textColor="@color/black"
