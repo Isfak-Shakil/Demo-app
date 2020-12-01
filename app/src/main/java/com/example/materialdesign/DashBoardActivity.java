@@ -4,10 +4,18 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.graphics.drawable.GradientDrawable;
 import android.os.Bundle;
+import android.view.View;
 import android.view.WindowManager;
-import android.widget.LinearLayout;
+
+import com.example.materialdesign.Adapter.CategoriesAdapter;
+import com.example.materialdesign.Adapter.FeaturedAdapter;
+import com.example.materialdesign.Adapter.MostViewedAdapter;
+import com.example.materialdesign.HelperClass.CategoriesHelperClass;
+import com.example.materialdesign.HelperClass.FeaturedHelperClass;
+import com.example.materialdesign.HelperClass.MostViewedHelperClass;
 
 import java.util.ArrayList;
 
@@ -98,5 +106,9 @@ public class DashBoardActivity extends AppCompatActivity {
         adapter3 = new CategoriesAdapter(categoriesHelperClasses);
         categoriesRecycler.setAdapter(adapter3);
 
+    }
+
+    public void plusIcon(View view) {
+        startActivity(new Intent(DashBoardActivity.this,WelcomeScreenActivity.class));
     }
 }

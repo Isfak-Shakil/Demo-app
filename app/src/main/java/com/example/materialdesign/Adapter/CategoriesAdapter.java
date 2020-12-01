@@ -1,4 +1,4 @@
-package com.example.materialdesign;
+package com.example.materialdesign.Adapter;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -8,6 +8,9 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.example.materialdesign.HelperClass.CategoriesHelperClass;
+import com.example.materialdesign.R;
 
 import java.util.ArrayList;
 

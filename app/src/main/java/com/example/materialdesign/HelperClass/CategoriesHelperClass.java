@@ -1,4 +1,4 @@
-package com.example.materialdesign;
+package com.example.materialdesign.HelperClass;
 
 public class CategoriesHelperClass {
 public  String title;

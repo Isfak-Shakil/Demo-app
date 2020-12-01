@@ -1,4 +1,4 @@
-package com.example.materialdesign;
+package com.example.materialdesign.HelperClass;
 
 import android.widget.ImageView;
 import android.widget.TextView;
