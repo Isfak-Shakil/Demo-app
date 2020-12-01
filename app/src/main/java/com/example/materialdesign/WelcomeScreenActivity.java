@@ -33,5 +33,17 @@ public class WelcomeScreenActivity extends AppCompatActivity {
     }
 
     public void callingSignUpScreen(View view) {
+        Intent intent=new Intent(WelcomeScreenActivity.this,NewMaterialSignUpActivity.class);
+        Pair[] pairs=new Pair[1];
+        pairs[0]=new Pair<View,String>(findViewById(R.id.newSignUp),"transition_signup");
+
+        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.LOLLIPOP) {
+            ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(WelcomeScreenActivity.this, pairs);
+            startActivity(intent, options.toBundle());
+
+        }else {
+            startActivity(intent);
+        }
+
     }
 }

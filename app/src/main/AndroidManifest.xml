@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MaterialDesign">
-        <activity android:name=".WelcomeScreenActivity"></activity>
+        <activity android:name=".SignUp3rdAcitvity"></activity>
+        <activity android:name=".SignUp2ndPageActivity" />
+        <activity android:name=".NewMaterialSignUpActivity" />
+        <activity android:name=".WelcomeScreenActivity" />
         <activity android:name=".NewMaterialLoginScreen" />
         <activity android:name=".UserProfileActivity" />
         <activity android:name=".SignUpActivity" />
