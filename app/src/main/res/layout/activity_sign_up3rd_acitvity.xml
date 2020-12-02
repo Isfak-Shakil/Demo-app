@@ -72,13 +72,14 @@
 
         <Button
             android:id="@+id/signUp_next_Btn"
+            android:onClick="callingOTPactivity"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/_20sdp"
             android:background="@color/colorBlack"
             android:elevation="@dimen/_8sdp"
             android:padding="@dimen/_10sdp"
-            android:text="Done"
+            android:text="Next"
             android:textAllCaps="true"
             android:textColor="@color/white"
             android:textSize="@dimen/_20sdp"
