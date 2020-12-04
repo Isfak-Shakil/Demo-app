@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MaterialDesign">
-        <activity android:name=".OTPScreenActivity"></activity>
+        <activity android:name=".ForgetPasswordSuccessActivity"></activity>
+        <activity android:name=".SetNewPasswordActivity" />
+        <activity android:name=".ForgotPasswordSelectionActivity" />
+        <activity android:name=".ForgotPasswordActivity" />
+        <activity android:name=".OTPScreenActivity" />
         <activity android:name=".SignUp3rdAcitvity" />
         <activity android:name=".SignUp2ndPageActivity" />
         <activity android:name=".NewMaterialSignUpActivity" />
