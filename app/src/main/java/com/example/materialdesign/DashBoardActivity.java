@@ -69,7 +69,7 @@ public class DashBoardActivity extends AppCompatActivity implements NavigationVi
     private void navigationDrawer() {
         navigationView.bringToFront();
         navigationView.setNavigationItemSelectedListener(this);
-        navigationView.setCheckedItem(R.id.navHome);
+        navigationView.setCheckedItem(R.id.navlogin);
         menuIcon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -111,6 +111,37 @@ public class DashBoardActivity extends AppCompatActivity implements NavigationVi
 
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+        switch (item.getItemId()){
+            case R.id.navlogin:
+                startActivity(new Intent(getApplicationContext(),LoginActivity.class));
+                break;
+                case R.id.navWelcome:
+                    startActivity(new Intent(getApplicationContext(), WelcomeScreenActivity.class));
+                break;
+
+            case R.id.navallCategories:
+                startActivity(new Intent(getApplicationContext(),AllCategoriedActivity.class));
+                break;
+                   case R.id.navSignUp:
+                   startActivity(new Intent(getApplicationContext(),SignUpActivity.class));
+                   break;
+                   case R.id.navNewLogin:
+                   startActivity(new Intent(getApplicationContext(),NewMaterialLoginScreen.class));
+                   break;
+            case R.id.navProfile:
+                startActivity(new Intent(getApplicationContext(),UserProfileActivity.class));
+                break;
+            case R.id.navMaterSignUp:
+                startActivity(new Intent(getApplicationContext(),NewMaterialSignUpActivity.class));
+                break;
+                case R.id.navforgotPassword:
+                startActivity(new Intent(getApplicationContext(),ForgotPasswordActivity.class));
+                break;
+                case R.id.navOtpScreen:
+                startActivity(new Intent(getApplicationContext(),OTPScreenActivity.class));
+                break;
+
+        }
         return true;
     }
 
@@ -183,7 +214,7 @@ public class DashBoardActivity extends AppCompatActivity implements NavigationVi
     }
 
     public void plusIcon(View view) {
-        startActivity(new Intent(DashBoardActivity.this, WelcomeScreenActivity.class));
+     startActivity(new Intent(DashBoardActivity.this, WelcomeScreenActivity.class));
     }
 
 

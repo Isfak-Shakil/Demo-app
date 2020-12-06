@@ -3,67 +3,75 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/navHome"
+            android:id="@+id/navlogin"
             android:icon="@drawable/menu_icon"
-            android:title="Home" />
+            android:title="Login Activity" />
         <item
-            android:id="@+id/navSearch"
+            android:id="@+id/navWelcome"
             android:icon="@drawable/search_icon"
-            android:title="Search" />
+            android:title="WelcomeScreen" />
         <item
             android:id="@+id/navallCategories"
             android:icon="@drawable/retailer_icon"
             android:title="Categories" />
         <item
-            android:id="@+id/missingPlace"
+            android:id="@+id/navSignUp"
             android:icon="@drawable/place_icon"
-            android:title="Place" />
+            android:title="SignUp" />
 
     </group>
 
-    <item android:title="Profile" />
+    <item android:title="Material Design" />
 
 
         <group android:checkableBehavior="single">
             <item
-                android:id="@+id/navLogin"
+                android:id="@+id/navNewLogin"
                 android:icon="@drawable/add_icon"
-                android:title="Login" />
+                android:title="Material Login" />
             <item
                 android:id="@+id/navProfile"
                 android:icon="@drawable/person_icon"
-                android:title="Profile" />
+                android:title="Material Profile" />
             <item
-                android:id="@+id/navaLogOut"
+                android:id="@+id/navMaterSignUp"
                 android:icon="@drawable/edit_icon"
-                android:title="LogOut" />
+                android:title="MaterialSignUp" />
+            <item
+                android:id="@+id/navforgotPassword"
+                android:icon="@drawable/edit_icon"
+                android:title="FogotPassword" />
+            <item
+                android:id="@+id/navOtpScreen"
+                android:icon="@drawable/edit_icon"
+                android:title="OTP Screen" />
 
 
         </group>
 
 
-    <item android:title="Categories" />
+<!--    <item android:title="Categories" />-->
 
-        <group android:checkableBehavior="single">
-            <item
-                android:id="@+id/navShop"
-                android:icon="@drawable/shop_icon"
-                android:title="Shop" />
-            <item
-                android:id="@+id/navSchool"
-                android:icon="@drawable/school_icon"
-                android:title="School" />
-            <item
-                android:id="@+id/navaAirport"
-                android:icon="@drawable/airport_icon"
-                android:title="Airport" />
-            <item
-                android:id="@+id/navaRestaurant"
-                android:icon="@drawable/restaurant_icon"
-                android:title="Restaurent" />
+<!--        <group android:checkableBehavior="single">-->
+<!--            <item-->
+<!--                android:id="@+id/navShop"-->
+<!--                android:icon="@drawable/shop_icon"-->
+<!--                android:title="Shop" />-->
+<!--            <item-->
+<!--                android:id="@+id/navSchool"-->
+<!--                android:icon="@drawable/school_icon"-->
+<!--                android:title="School" />-->
+<!--            <item-->
+<!--                android:id="@+id/navaAirport"-->
+<!--                android:icon="@drawable/airport_icon"-->
+<!--                android:title="Airport" />-->
+<!--            <item-->
+<!--                android:id="@+id/navaRestaurant"-->
+<!--                android:icon="@drawable/restaurant_icon"-->
+<!--                android:title="Restaurent" />-->
 
 
-        </group>
+<!--        </group>-->
 
 
 
