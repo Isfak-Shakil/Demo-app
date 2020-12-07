@@ -214,7 +214,7 @@ public class DashBoardActivity extends AppCompatActivity implements NavigationVi
     }
 
     public void plusIcon(View view) {
-     startActivity(new Intent(DashBoardActivity.this, WelcomeScreenActivity.class));
+    startActivity(new Intent(DashBoardActivity.this, BottomNavigationActivity.class));
     }
 
 

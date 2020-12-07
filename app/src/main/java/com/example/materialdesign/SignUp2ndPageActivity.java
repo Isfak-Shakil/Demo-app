@@ -26,6 +26,13 @@ public class SignUp2ndPageActivity extends AppCompatActivity {
         title=findViewById(R.id.signUp_title_text);
         next=findViewById(R.id.signUp_next_Btn);
         login=findViewById(R.id.signUp_login_Btn);
+        ;
+        backBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onBackPressed();
+            }
+        });
     }
     public void callingNextSignUpPage(View view) {
         Intent intent= new Intent(getApplicationContext(),SignUp3rdAcitvity.class);

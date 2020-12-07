@@ -9,10 +9,24 @@
     android:padding="@dimen/_30sdp"
     android:transitionName="transition_login"
     tools:context=".WelcomeScreenActivity">
+
+
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+        <RelativeLayout
+            android:background="@color/colorWhite"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize">
+            <ImageView
+                android:id="@+id/backBtn"
+                android:padding="@dimen/_5sdp"
+                android:src="@drawable/back_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RelativeLayout>
+
         <ImageView
 
             android:backgroundTint="@color/black"

@@ -332,7 +332,7 @@
                 </RelativeLayout>
                 <ImageView
                     android:layout_marginLeft="@dimen/_10sdp"
-                    android:src="@drawable/shop_icon"
+                    android:src="@drawable/categories_shop_icon"
                     android:layout_width="@dimen/_120sdp"
                     android:layout_height="match_parent"/>
             </RelativeLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/botton_nav_dashboard_Id"
+        android:title="Dashboard"
+        android:icon="@drawable/retailer_icon"
+        />
+    <item
+        android:id="@+id/botton_nav_manage_Id"
+        android:title="Manage"
+        android:icon="@drawable/edit_icon"
+        />
+    <item
+        android:id="@+id/botton_nav_prfile_Id"
+        android:title="Profile"
+        android:icon="@drawable/person_icon"
+        />
+</menu>
